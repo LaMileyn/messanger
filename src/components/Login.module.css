@@ -1,0 +1,24 @@
+.login__section{
+    padding: 450px 0;
+}
+.block__login{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c2bcbc;
+    border-radius: var(--border-radius-medium);
+}
+.block__login button{
+    padding: 15px 20px;
+    border-radius: var(--border-radius-medium);
+    background: var(--color-gray);
+    color: var(--color-white);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+.block__login button:hover{
+    background: #605f5f;
+}
