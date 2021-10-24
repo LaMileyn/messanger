@@ -1,0 +1,56 @@
+.section__messages{
+    padding: 150px 0;
+}
+.messages__area{
+    border-radius: var(--border-radius-medium);
+    border: 2px solid var(--color-gray);
+    height: 500px;
+    overflow-y: scroll;
+}
+.area__buttons{
+    display: flex;
+    justify-content: right;
+
+}
+.submit__area{
+    display: flex;
+    padding-top: 15px;
+}
+.submit__area button{
+    background: var(--color-gray);
+    border: 1px solid var(--color-black);
+    border-radius: 2px;
+    color: var(--color-white);
+    cursor: pointer;
+    margin-left: 15px;
+}
+.submit__area button:hover{
+    background: #525252;
+    transition: .2s ease-in-out;
+}
+
+textarea{
+    border-radius: 2px;
+    border: 2px solid var(--color-black);
+    outline: none;
+    resize: none;
+}
+textarea::placeholder{
+    font-size: 15px;
+}
+.photo__userName img{
+    width: 50px;
+    border-radius: 100%;
+}
+.photo__userName {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+.photo__userName > div{
+    margin-left: 5px;
+    font-size: 20px;
+}
+.message__text{
+    font-size: 20px;
+}
